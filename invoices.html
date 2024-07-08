@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- <link rel="stylesheet" href="./login.css"> -->
+    <link rel="stylesheet" href="./page2.css">
+    <link rel="stylesheet" href="./page3.css">
+    <!-- <link rel="stylesheet" href="./page4.css"> -->
+    <!-- <link rel="stylesheet" href="./page5.css"> -->
+</head>
+
+<body>
+    <div class="container-main">
+        <div class="container">
+            <div class="sidebar">
+                <h2>Dashboard</h2>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="invoices.html">Invoices</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <header>
+                    <a href="login.html"> <button class="logout-button">Logout</button></a>
+                </header>
+                <div class="content">
+                    <div class="add-invoice">
+                        <h3>Add Invoice</h3>
+                        <div class="upload-box">
+                            <img src="./image1.png" alt="">
+                            <p>Drop invoice here or Choose file from <span>your device</span></p>
+                            <button class="choose-file-button">Choose File</button>
+                            <p class="upload-hint">Upload pdf or docx file</p>
+                        </div>
+                        <form>
+                            <input type="text" placeholder="Invoice Number here...">
+                            <input type="text" placeholder="Write Detail here...">
+                            <input type="text" placeholder="Amount...">
+                            <button type="submit" class="submit-button">Submit</button>
+                        </form>
+                    </div>
+                    <div class="summary">
+                        <h3>Summary</h3>
+                        <div class="summary-controls">
+                            <input type="text" placeholder="Search...">
+                            <button class="search-button">🔍</button>
+                            <input type="text" placeholder="12/01/2023 - 12/05/2023">
+                            <button class="date-picker-button">📅</button>
+                        </div>
+                        <table class="summary-table">
+                            <thead>
+                                <tr>
+                                    <th>Invoice Details</th>
+                                    <th>Submission Date</th>
+                                    <th>Amount</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>iPhone 14<br><small>Invoice #1122</small></td>
+                                    <td>Tue, 11 Apr. 2023</td>
+                                    <td>₹ 70,000</td>
+                                    <td>
+                                        <button class="download-button">⬇️</button>
+                                        <button class="more-button">⋮</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone SE<br><small>Invoice #1122</small></td>
+                                    <td>Tue, 10 Ap., 2023</td>
+                                    <td>₹ 70,000</td>
+                                    <td>
+                                        <button class="download-button">⬇️</button>
+                                        <button class="more-button">⋮</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Mac Mini<br><small>Invoice #1122</small></td>
+                                    <td>Tue, 9 Apr. 2023</td>
+                                    <td>₹ 70,000</td>
+                                    <td>
+                                        <button class="download-button">⬇️</button>
+                                        <button class="more-button">⋮</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone 13 Pro<br><small>Invoice #1122</small></td>
+                                    <td>Tue, 10 Apr. 2023</td>
+                                    <td>₹ 70,000</td>
+                                    <td>
+                                        <button class="download-button">⬇️</button>
+                                        <button class="more-button">⋮</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Macbook air<br><small>Invoice #1122</small></td>
+                                    <td>Tue, 9 Apr. 2023</td>
+                                    <td>₹ 70,000</td>
+                                    <td>
+                                        <button class="download-button">⬇️</button>
+                                        <button class="more-button">⋮</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone 12 mini
+                                        <br><small>Invoice #1122</small>
+                                    </td>
+                                    <td>Tue, 10 Apr. 2023</td>
+                                    <td>₹ 70,000</td>
+                                    <td>
+                                        <button class="download-button">⬇️</button>
+                                        <button class="more-button">⋮</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
